@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>تهنئة العيد للأخ الحبيب عبدالقادر
+</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;700&family=Lalezar&display=swap');
+
+    :root {
+      --gold: #d4af37;
+      --green: #0a5c36;
+      --cream: #fefdf6;
+      --dark: #2c2c2c;
+    }
+
+    body {
+      font-family: 'Amiri', serif;
+      background: linear-gradient(to bottom, #fefdf6, #fffbe0);
+      margin: 0;
+      padding: 0;
+      color: var(--dark);
+      line-height: 1.8;
+    }
+
+    .font-switcher {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      background-color: rgba(255, 255, 255, 0.85);
+      border: 1px solid var(--gold);
+      padding: 5px 10px;
+      border-radius: 5px;
+      z-index: 1000;
+      font-size: 0.9rem;
+    }
+
+    select {
+      font-size: 1rem;
+      padding: 3px 6px;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 80px auto 40px auto;
+      padding: 25px;
+      background-color: #ffffffef;
+      border: 3px solid var(--gold);
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 25px;
+      position: relative;
+    }
+
+    .header::before,
+    .header::after {
+      content: "❀";
+      color: var(--green);
+      font-size: 24px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .header::before {
+      right: -25px;
+    }
+
+    .header::after {
+      left: -25px;
+    }
+
+    h1 {
+      color: var(--green);
+      font-size: 2.3rem;
+      margin-bottom: 15px;
+      display: inline-block;
+      border-bottom: 2px dashed var(--gold);
+      padding-bottom: 5px;
+    }
+
+    .verse, .hadith {
+      margin: 20px 0;
+      padding: 15px;
+      border-radius: 6px;
+      font-size: 1.1rem;
+      line-height: 2;
+      transition: transform 0.3s ease;
+    }
+
+    .verse {
+      background-color: #fff8dc;
+      border-right: 4px solid var(--gold);
+      text-align: center;
+    }
+
+    .hadith {
+      background-color: #f0fff0;
+      border-left: 4px solid var(--green);
+      font-style: italic;
+    }
+
+    .verse:hover, .hadith:hover {
+      transform: scale(1.02);
+    }
+
+    .arabic-text {
+      font-size: 1.15rem;
+      text-align: justify;
+    }
+
+    .eid-mubarak {
+      font-size: 1.8rem;
+      color: var(--green);
+      text-align: center;
+      margin: 30px 0;
+      animation: pulse 2s infinite;
+      font-weight: bold;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    .decoration {
+      text-align: center;
+      font-size: 1.6rem;
+      color: var(--gold);
+      margin: 30px 0;
+    }
+
+    .signature {
+      text-align: left;
+      margin-top: 40px;
+      font-size: 1.1rem;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      color: var(--green);
+      font-size: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .eid-mubarak {
+        font-size: 1.5rem;
+      }
+
+      .font-switcher {
+        top: auto;
+        bottom: 10px;
+        left: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="font-switcher">
+    الخط:
+    <select onchange="changeFont(this.value)">
+      <option value="'Amiri', serif">Amiri</option>
+      <option value="'Cairo', sans-serif">Cairo</option>
+      <option value="'Lalezar', cursive">Lalezar</option>
+    </select>
+  </div>
+
+  <div class="container">
+    <div class="header">
+      <h1>تهنئة قلبية للأخ الحبيب الشريف عبدالقادر</h1>
+    </div>        
+        <div class="arabic-text">
+            <p>بسم الله الرحمن الرحيم</p>
+            <p>الصلاة والسلام على سيدنا محمد، المبعوث رحمة للعالمين، وعلى آله وصحبه أجمعين.</p>
+            
+            <p>أخي الحبيب الشريف عبد القادر، أنت قرة عيني وسندي في الدنيا والآخرة بإذن الله.</p>
+            
+            <p>تهنئةٌ قلبيةٌ تفيضُ حبًّا وتقديرًا، تُنْبِتُها روحي كالنبتة الطيبة التي أصلها ثابت وفرعها في السماء، تُذَكِّرُنا بقول الله تعالى:</p>
+            
+            <div class="verse">
+                ﴿وَمَثَلُ كَلِمَةٍ طَيِّبَةٍ كَشَجَرَةٍ طَيِّبَةٍ أَصْلُهَا ثَابِتٌ وَفَرْعُهَا فِي السَّمَاءِ﴾ [إبراهيم: 24]
+            </div>
+            
+            <p>فأنت -أخي- كالشجرة الطيبة، تُظِلُّني بوفائك، وتُثْمِرُ خيرًا وعطاءً لا ينقطع.</p>
+            
+            <p>ولن ننسى أبدًا أننا من الأشراف الهاشميين العلويين الحسنيين الإدريسيين الودغيريين البحياويين، ننتمي إلى سلالةٍ طاهرةٍ، كالشمس تُنير الدروب، وكالغيث يُحيي الأرض بعد جدبها. وقد قال رسول الله صلى الله عليه وسلم:</p>
+            
+            <div class="hadith">
+                «إنَّ اللهَ اصْطَفى كِنانَة من وَلَد إسماعيل، واصْطَفى قُريشًا من كِنانة، واصْطَفى بَني هاشم مِنْ قُرَيش، واصْطَفاني مِنْ بني هاشم، فأنا سَيِّدُ وَلَد آدم ولا فَخْر،» [رواه مسلم]
+            </div>
+            
+            <p>فنحن -بحمد الله- من تلك الأصول الطاهرة، التي تُلزمنا بالتمسك بالقيم والمبادئ السامية.</p>
+            
+            <p>أخي الحبيب الشريف عبدالقادر:<br>
+            يا من أُؤْثِرُهُ على نفسي ولو كان بي خصاصة، كما قال تعالى:</p>
+            
+            <div class="verse">
+                ﴿وَيُؤْثِرُونَ عَلَى أَنْفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ﴾ [الحشر: 9]
+            </div>
+            
+            <p>أُذَكِّرُكَ يا أخي بأنَّكَ لم تختر اسمَكَ عبد القادر، بل سُمِّيتَ به تيَمُّنًا باسمِ جدِّنا الصَّالح سيدي الحاج عبدالقادر ولد السي المعطي. ومما يزيدُ هذا الامتدادَ جمالًا وعمقًا، أنَّكَ سمَّيتَ ابنَكَ مُتَيَمِّنًا باسمِ جدِّنا أبي يحيى البصير. فلا يَغِبْ عن بالِكَ أنَّكَ أولى الناسِ وأحرَصُهُمْ على الحفاظِ على عاداتِ وتقاليدِ أجدادِنا العريقةِ، كي نتمكَّنَ من استرجاعِ حقوقِنا المشروعةِ بإذن الله.<br>
+             </p>
+            
+            <p>في زمن التحديات:<br>
+            في هذا العصر الذي تتسارع فيه المعرفة وتتلاطم أمواج الصعاب، نحن أحوج ما نكون إلى الوحدة التي تجمعنا، والمحبة التي تُعْمِرُ قلوبنا، والتعاون الذي يُبْنَى به المجد. فقد قال رسول الله صلى الله عليه وسلم:</p>
+            
+            <div class="hadith">
+                «المؤمن للمؤمن كالبنيان يشد بعضه بعضًا» [متفق عليه]
+            </div>
+            
+            <p> فلنكن كالجسد الواحد، يشد بعضه بعضا، نتعاون على البر والتقوى، ونبتعد عن الجدال الذي يُفَرِّقُ الصفوف ويُضعفُ الشملَ. ولنُغلقَ بإحكامٍ جميع الأبواب والنوافذ التي تجلبُ الفتنَ، كما حذرنا الله تعالى في كتابه العزيز:</p>
+            
+            <div class="verse">
+                ﴿وَلَا تَنَازَعُوا فَتَفْشَلُوا وَتَذْهَبَ رِيحُكُمْ﴾ [الأنفال: 46]
+            </div>
+            
+            <p>و علينا أن نُرسِّخ العدل في كل شيء، حتى في توزيع الإرث والمعرفة، لأن العدل أساس الملك، كما قال عمر بن الخطاب رضي الله عنه:
+«بالعدل قامت السماوات والأرض».
+و لن يقوم العدل بدون الأمر بالمعروف و النهي عن المنكر و كما قال تعالى:<br>
+           </p>
+            
+            <div class="verse">
+                ﴿{كُنْتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ تَأْمُرُونَ بِالْمَعْرُوفِ وَتَنْهَوْنَ عَنِ الْمُنْكَرِ..}﴾ [آل عمران: 110]
+            </div>
+            <p>أول عيد يحل علينا بعد وفاة المرحوم بإذن الله والدنا الحاج الشريف إبراهيم ولد السيد المعطي:<br>
+            بقلوب مؤمنة بقضاء الله وقدره، وراضية بحكمه، تمر علينا هذه الأيام المباركة، وهو أول عيد يحل علينا بعد وفاة المرحوم بإذن الله الحاج أبونا الشريف إبراهيم ولد السيد المعطي البحياوي الودغيري الإدريسي الحسني العلوي الهاشمي ، طيب الله ثراه وأسكنه فسيح جناته. نسأل الله أن يتقبله في عليين مع النبيين والصديقين والشهداء والصالحين وحسن أولئك رفيقًا، وأن يلهمنا جميعًا، ويثبت قلوبنا على الصبر الجميل والسلوان، كما قال تعالى:</p>
+            
+            <div class="verse">
+                ﴿إِنَّمَا يُوَفَّى الصَّابِرُونَ أَجْرَهُمْ بِغَيْرِ حِسَابٍ﴾ [الزمر: 10]
+            </div>
+            
+            <div class="eid-mubarak">
+                ༄ تهنئة مباركة بمناسبة عيد الأضحى المبارك ༄
+            </div>
+            
+            <p>إلى أخي الحبيب، وتاج رأسي، الشريف عبد القادر، وإلى زوجته وشريكة حياته الكريمة، وإلى أسرتكما الطيبة، وزهرات بيتكما العطرة، الأميرين الطاهرين، وعلى رأسهما، بل وعلى رؤوسنا جميعاً، الأميرة الغالية لالة آلاء، والأمير المبارك مولاي يحيى.<br>
+
+            بقلب يملؤه الود والمحبة الصادقة، ويغمره الإجلال لكم جميعاً، أتقدم إليك وإلى عائلتك الكريمة بأصدق التهاني وأسمى التبريكات، بمناسبة حلول عيد الأضحى المبارك.<br>
+
+            سائلين المولى عز وجل أن يعيده علينا وعليكم، وعلى أمتنا الإسلامية جمعاء، بالخير واليمن والبركات، وأن يتقبل منا ومنكم صالح الأعمال، خالص الطاعات والعبادات. جعل الله أيامكم كلها أعيادًا، ولياليكم كلها مسرات، وقلوبكم عامرة بالفرح والغبطة والسرور.<br>
+
+
+            كل عام وأنتم إلى الله أقرب، وعلى طاعته أدوم، وفي كل خير أسبق.
+عيدكم مبارك سعيد، وكل عام وأنتم بألف خير.<br>
+</p>
+            
+            <div class="decoration">
+                ✿༺ ༻✿
+            </div>
+            
+            <div class="eid-mubarak">
+                ༄ عيدك مبارك ༄
+            </div>
+            
+            <p>وأسأل الله أن يُعيده علينا وعليك أعوامًا عديدة، ونحن في أتم الصحة والعافية.</p>
+            
+            <div class="signature">
+                أخوك الذي يحبك في الله،<br>
+                عزيز
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>✧ الختام ✧<br>
+            
+« اللَّهُمَّ اجْعَلْنَا مِنَ الْمُتَحَابِّينَ فِيكَ، وَالْمُتَعَاوِنِينَ عَلَى طَاعَتِكَ بِالْبِرِّ وَالْإِحْسَانِ، وَالْآمِرِينَ بِالْمَعْرُوفِ وَالنَّاهِينَ عَنِ الْمُنْكَرِ، وَالْمُتَغَافِلِينَ عَنِ الْأَخْطَاءِ وَالزَّلَّاتِ. آمِينَ. »</p>
+        </div>
+    </div>
+    
+    <script>
+        // Animation pour les versets coraniques
+        document.querySelectorAll('.verse').forEach(verse => {
+            verse.addEventListener('mouseover', function() {
+                this.style.transform = 'scale(1.02)';
+                this.style.transition = 'transform 0.3s ease';
+            });
+            
+            verse.addEventListener('mouseout', function() {
+                this.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+
+
+    <div class="footer">
+      <p>✧ الختام ✧<br>
+      «اللهم اجعلنا من المتحابين فيك، والمتعاونين على طاعتك». آمين.</p>
+    </div>
+  </div>
+
+  <script>
+    function changeFont(fontName) {
+      document.body.style.fontFamily = fontName;
+    }
+  </script>
+</body>
+</html>
